@@ -1,0 +1,116 @@
+.mainContent{
+  display: flex;
+  margin-top:100px;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.mainContent h1{
+  font: var(--headline4);
+  text-align:center;
+}
+
+.mainContent p{
+  font: var(--body1);
+}
+
+.landingData{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.landingData p{
+  display: flex;
+  text-align: center;
+}
+
+
+.dataNumbers{
+  text-align: center;
+  margin: .7rem;
+}
+
+
+
+.dataNumbers h1{
+  font: var(--headline3);
+}
+
+.dataNumbers h4{
+  color:#92959C;
+  font: var(--button);
+
+}
+
+.dataNumbers img{
+  display: flex;
+  width: 20%;
+}
+
+
+@media screen and (min-width:768px) {
+  .mainContent {
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .mainContent h1 {
+    font: var(--headline4);
+  }
+
+  .mainContent p {
+    font: var(--body1);
+  }
+
+  .landingData {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .landingData p {
+    display: flex;
+    text-align: center;
+  }
+
+  .dataNumbers {
+    display: flex;
+    text-align: center;
+
+    gap: 20rem;
+  }
+
+  .dataNumbersInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .dataNumbers h1 {
+    font: var(--headline3);
+  }
+
+  .dataNumbers h4 {
+    color: #92959C;
+    font: var(--button);
+    margin-top: -30px;
+
+  }
+
+  .dataNumbers img {
+    align-self: flex-start;
+    margin-bottom: -30px;
+    width: 20%;
+  }
+
+  #firstImg{
+    margin-left: 15px;
+  }
+}

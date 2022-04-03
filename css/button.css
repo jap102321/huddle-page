@@ -1,0 +1,35 @@
+.buttonWhite{
+  border-radius: 25px;
+  border: 3px solid var(--pink);
+  color: var(--pink);
+  padding: 0.5rem 2rem;
+  background-color:transparent ;
+  cursor: pointer;
+}
+
+.buttonPink{
+ font: var(--button);
+ margin: 1.5rem auto;
+ padding: 1.5rem 4rem;
+ color: #fff;
+ background: var(--pink);
+ border:none;
+ cursor: pointer;
+ border-radius: 50px;
+}
+
+.small{
+  font: var(--caption);
+  margin:.5rem ;
+  padding:.7rem 2rem;
+  color: #fff;
+  background: var(--pink);
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+
+button:hover{
+  opacity: 80%;
+}
